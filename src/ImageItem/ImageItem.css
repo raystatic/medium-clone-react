@@ -1,0 +1,26 @@
+.imageItem{
+    max-width: 100%;
+}
+
+.imageItem__createImage{
+    background-color: whitesmoke;
+    padding: 32px;
+    display: inline-block;
+}
+
+.imageItem__createImage > input{
+    margin: 8px 0;
+    padding: 8px;
+    display: block;
+}
+
+.imageItem__createImage > button{
+    padding: 8px;
+    background: none;
+    border-radius: 15px;
+    
+}
+
+.imageItem__createImage > button:hover{
+    cursor: pointer;
+}

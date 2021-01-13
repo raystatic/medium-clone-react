@@ -1,0 +1,10 @@
+.createBlog{
+    padding: 16px;
+    margin-left: 20%;
+    width: 60%;
+}
+
+h1{
+    font-weight: normal;
+    font-family: Poppins;
+}

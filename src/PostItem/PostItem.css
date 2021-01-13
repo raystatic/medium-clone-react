@@ -1,0 +1,12 @@
+.postItem{
+    font-size: 22px;
+}
+
+
+.postItem__input{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    font-size: inherit;
+}

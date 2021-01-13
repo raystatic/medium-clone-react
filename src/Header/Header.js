@@ -3,8 +3,17 @@ import './Header.css';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import BookmarksOutlinedIcon from '@material-ui/icons/BookmarksOutlined';
 import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
+import { Link, useHistory } from 'react-router-dom';
 
 function Header() {
+
+    const history = useHistory();
+
+    const createBlog=(e) => {
+        e.preventDefault();
+        history.push('/')
+    }
+
     return (
         <div className="header">
 
@@ -30,10 +39,11 @@ function Header() {
                     htmlColor="#7E7E7E"
                 />
 
-                <div
-                    className="header__createNew">
-                    Create New
-                </div>
+                <Link to='/create' className="header__link">
+                    <div className="header__createNew">
+                            Create New
+                    </div>
+                </Link>
 
                 <img
                     src="https://miro.medium.com/fit/c/262/262/1*Yeazey3KkMEYji5rrI8SsQ.jpeg"

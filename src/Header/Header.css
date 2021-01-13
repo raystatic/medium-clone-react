@@ -66,6 +66,10 @@
     font-weight: 500;
 }
 
+.header__link{
+    text-decoration: none !important;
+}
+
 @media screen and (max-width: 1024px) {
     .header__createNew {
         display: none !important;
