@@ -15,3 +15,8 @@ code {
 *{
   margin: 0;
 }
+
+@font-face{
+  font-family: 'Charter';
+  src: local('Charter'),url(./fonts/Charter/Charter_regular.ttf) format('truetype');
+}
