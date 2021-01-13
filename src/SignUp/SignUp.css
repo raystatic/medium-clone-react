@@ -1,0 +1,50 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h1{
+    font-family: Charet;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.signup__input{
+    padding: 16px;
+    width: 40%;
+    margin-top: 10px;
+    font-family: Poppins;
+}
+
+.signup__button{
+    margin-top: 20px;
+    background-color: #1A8917;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.signup__noAccount{
+    font-family: Poppins;
+    margin-top: 20px;
+}
+
+.signup__createAccount{
+    color: #1A8917 ;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.signup__link{
+    text-decoration: none !important;
+    cursor: pointer;
+}
