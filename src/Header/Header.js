@@ -6,22 +6,17 @@ import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneO
 import { Link, useHistory } from 'react-router-dom';
 
 function Header() {
-
-    const history = useHistory();
-
-    const createBlog=(e) => {
-        e.preventDefault();
-        history.push('/')
-    }
-
     return (
         <div className="header">
 
             <div className="header__leftContainer">
-                <img className="header__logo"
-                    src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png"
-                    alt=""
-                />
+                <Link to="/">
+                    <img className="header__logo"
+                        src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png"
+                        alt=""
+                    />
+                </Link>
+                
                 <p className="header__greeting">Good afternoon</p>
             </div>
 

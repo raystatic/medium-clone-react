@@ -23,7 +23,7 @@ function EditImage({updateItem}) {
 function ImageItem({src, alt, updateItem}) {
     return (
         <div className="imageItem">
-            {src && alt ? <img src={src} alt={alt}/> : <EditImage updateItem={updateItem}/>}
+            {src && alt ? <img className="imageItem__image" src={src} alt={alt}/> : <EditImage updateItem={updateItem}/>}
         </div>
     )
 }

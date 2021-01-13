@@ -2,6 +2,10 @@
     max-width: 100%;
 }
 
+.imageItem__image{
+    max-width: 60%;
+}
+
 .imageItem__createImage{
     background-color: whitesmoke;
     padding: 32px;
