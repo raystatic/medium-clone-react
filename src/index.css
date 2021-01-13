@@ -20,3 +20,8 @@ code {
   font-family: 'Charter';
   src: local('Charter'),url(./fonts/Charter/Charter_regular.ttf) format('truetype');
 }
+
+@font-face{
+  font-family: 'Poppins';
+  src: local('Poppins'),url(./fonts/Poppins/Poppins_Medium.ttf) format('truetype');
+}

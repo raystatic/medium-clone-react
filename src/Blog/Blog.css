@@ -1,0 +1,25 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background-color: #fafafa;
+}
+
+.blog__thumbmnail{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.blog__title{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    max-width: 600px;
+    text-decoration: none !important;
+    color: #292929;
+}

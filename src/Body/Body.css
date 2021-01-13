@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .body__blog{
+    display: inline;
+}
+
+.body__blog > div{
+    display: inline-block;
+} */
+
+.body_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.body__profile{
+    margin-top: 20px;
+}
