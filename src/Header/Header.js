@@ -40,12 +40,10 @@ function Header() {
                     </div>
                 </Link>
 
-                <Link to="/login">
-                    <img
-                        src="https://miro.medium.com/fit/c/262/262/1*Yeazey3KkMEYji5rrI8SsQ.jpeg"
-                        alt=""
-                        className="header__profileImage"
-                    />
+                <Link to="/login" className="header__link">
+                    <div className="header__createNew">
+                            Sign In
+                    </div>
                 </Link>
 
             </div>
