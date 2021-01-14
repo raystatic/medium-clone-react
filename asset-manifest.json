@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/medium-clone-react/static/css/main.855097cf.chunk.css",
-    "main.js": "/medium-clone-react/static/js/main.654cb1c6.chunk.js",
-    "main.js.map": "/medium-clone-react/static/js/main.654cb1c6.chunk.js.map",
-    "runtime-main.js": "/medium-clone-react/static/js/runtime-main.87785193.js",
-    "runtime-main.js.map": "/medium-clone-react/static/js/runtime-main.87785193.js.map",
-    "static/js/2.2fc66b6b.chunk.js": "/medium-clone-react/static/js/2.2fc66b6b.chunk.js",
-    "static/js/2.2fc66b6b.chunk.js.map": "/medium-clone-react/static/js/2.2fc66b6b.chunk.js.map",
-    "static/js/3.8bfaa221.chunk.js": "/medium-clone-react/static/js/3.8bfaa221.chunk.js",
-    "static/js/3.8bfaa221.chunk.js.map": "/medium-clone-react/static/js/3.8bfaa221.chunk.js.map",
+    "main.css": "/medium-clone-react/static/css/main.d8c829e1.chunk.css",
+    "main.js": "/medium-clone-react/static/js/main.9141e285.chunk.js",
+    "main.js.map": "/medium-clone-react/static/js/main.9141e285.chunk.js.map",
+    "runtime-main.js": "/medium-clone-react/static/js/runtime-main.ca565dc0.js",
+    "runtime-main.js.map": "/medium-clone-react/static/js/runtime-main.ca565dc0.js.map",
+    "static/js/2.85ac5361.chunk.js": "/medium-clone-react/static/js/2.85ac5361.chunk.js",
+    "static/js/2.85ac5361.chunk.js.map": "/medium-clone-react/static/js/2.85ac5361.chunk.js.map",
+    "static/js/3.ae31aa46.chunk.js": "/medium-clone-react/static/js/3.ae31aa46.chunk.js",
+    "static/js/3.ae31aa46.chunk.js.map": "/medium-clone-react/static/js/3.ae31aa46.chunk.js.map",
     "index.html": "/medium-clone-react/index.html",
-    "static/css/main.855097cf.chunk.css.map": "/medium-clone-react/static/css/main.855097cf.chunk.css.map",
-    "static/js/2.2fc66b6b.chunk.js.LICENSE.txt": "/medium-clone-react/static/js/2.2fc66b6b.chunk.js.LICENSE.txt",
+    "static/css/main.d8c829e1.chunk.css.map": "/medium-clone-react/static/css/main.d8c829e1.chunk.css.map",
+    "static/js/2.85ac5361.chunk.js.LICENSE.txt": "/medium-clone-react/static/js/2.85ac5361.chunk.js.LICENSE.txt",
     "static/media/index.css": "/medium-clone-react/static/media/Poppins_Medium.9e1bb626.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.87785193.js",
-    "static/js/2.2fc66b6b.chunk.js",
-    "static/css/main.855097cf.chunk.css",
-    "static/js/main.654cb1c6.chunk.js"
+    "static/js/runtime-main.ca565dc0.js",
+    "static/js/2.85ac5361.chunk.js",
+    "static/css/main.d8c829e1.chunk.css",
+    "static/js/main.9141e285.chunk.js"
   ]
 }
