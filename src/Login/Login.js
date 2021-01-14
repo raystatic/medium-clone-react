@@ -8,11 +8,14 @@ function Login() {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [showError, setShowError ] = useState(false)
 
     const login = () => {
         if (email && password) {
-            history.push('/create')          
-           // this.props.history.push('/')  
+            history.push('/')   
+            setShowError(false)       
+        }else{
+            setShowError(true)
         }
     }
 
@@ -30,6 +33,9 @@ function Login() {
                     </a>
                 </Link>
             </div>
+            {
+                showError ? <p className="login__error">Please enter credentials carefully</p> : null
+            }
         </div>
     )
 }

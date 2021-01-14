@@ -9,12 +9,22 @@ function SignUp() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
+    const [emptyError, setEmptyError] = useState(false)
+    const [passwordNotMathched, setPasswordNotMatched] = useState(false)
 
     const signUp = (e) => {
         if (email && password && confirmPassword) {
             if (password === confirmPassword) {
                 history.push('/');
+                setEmptyError(false)
+                setPasswordNotMatched(false)
+            }else{
+                setEmptyError(false)
+                setPasswordNotMatched(true)
             }
+        }else{
+            setEmptyError(true)
+            setPasswordNotMatched(false)
         }
     }
 
@@ -33,7 +43,12 @@ function SignUp() {
                     </a>
                 </Link>
             </div>
-            
+            {
+                emptyError ? <p className="signUp__error">Please enter credentials carefully</p> : null
+            }
+            {
+                passwordNotMathched ? <p className="signUp__error">Passwords do not match</p> : null
+            }
         </div>
     )
 }

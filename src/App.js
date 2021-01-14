@@ -8,33 +8,33 @@ import SignUp from './SignUp/SignUp';
 
 function App() {
   return (
-    <div className="app">
+      <Router>
+        <div className="app">
 
-        <Router>
           <Switch>
 
-            <Router path="/login">
-              <Login/>
-            </Router>
-
-            <Router path="/signUp">
-              <SignUp/>
-            </Router>
-
             <Route path="/create">
-                <Header/>
-                <CreateBlog/>
-            </Route>
+                  <Header/>
+                  <CreateBlog/>
+              </Route>
 
-            <Route path="/">
-              <Header/>
-              <Body/>
-            </Route>
+              <Route path="/login">
+                <Login/>
+              </Route>
+
+              <Route path="/signUp">
+                <SignUp/>
+              </Route>
+
+              <Route path="/">
+                <Header/>
+                <Body/>
+              </Route>
 
             </Switch>
-        </Router>
 
-    </div>
+          </div>
+      </Router>
   );
 }
 

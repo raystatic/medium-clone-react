@@ -48,3 +48,10 @@ h1{
     text-decoration: none !important;
     cursor: pointer;
 }
+
+.login__error{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin-top: 50px;
+}
